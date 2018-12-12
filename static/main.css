@@ -1,0 +1,148 @@
+body{
+	padding:0;
+	margin: 0;
+	color: #393e46;
+	background-image: linear-gradient(to right top, #393e46, #676970, #97989d, #cacacd, #ffffff);
+}
+/*colour scheme*/
+/*dark-blue - #393e46
+light-blue - #01b59f
+orange - #f8b500*/
+
+/*colour scheme*/
+
+/*FIXED NAV*/
+
+.fixed-nav{
+	background-color:#01b59f; 
+	padding: 3px;
+}
+
+.logo h2 {
+	text-align: center;
+}
+
+.logo h2 a {
+	text-decoration: none;
+	color: #393e46;
+	text-transform: uppercase;
+}
+
+/*FIXED NAV*/
+
+
+/*LOGIN CONTAINER*/
+.login-container{
+	color: #393e46;
+	display: inline;
+	float: right;
+	width:30%;
+}
+
+.login-container form {
+	padding:0;
+	margin:0;
+}
+
+.login-container h3 {
+	text-align: center;
+}
+
+.login-container{
+	/*border: 1px solid black;*/
+	margin:10px;
+	padding:15px;
+	background-color: white;
+	box-shadow: 1px 1px 10px black;
+	border-radius: 10px;
+}
+
+.login-container input[type=email]:hover,
+.login-container input[type=password]:hover{
+	background-color: gainsboro;
+	cursor: pointer;
+}
+
+.login-container input[type=submit]:hover{
+	color: white;
+	background-color: #393e46;
+}
+
+.login-container input[type=submit],
+.login-container input[type=password],
+.login-container input[type=email]{
+	display: block;
+	margin: 1% 0 1% 0;
+	padding:10px;
+	width: 90%;
+	border:2px solid #393e46;
+}
+
+.login-container form a {
+	float: right;
+}
+
+/*LOGIN CONTAINER*/
+
+.footer{
+	background-color: #01b59f;
+	clear: both;
+	padding: 8px;
+}
+
+.footer h4 {
+	color: #393e46;
+	text-align: center;
+}
+
+/*REGISTER CONTAINER*/
+
+.register-container{
+	color: #393e46;
+	display: inline;
+	float: left;
+}
+
+.register-container input{
+	display: block;
+	margin:1% 0 1% 0;
+	padding:10px;
+	width: 90%;
+	border:2px solid #393e46;
+}
+.register-container input[type=email]:hover,
+.register-container input[type=password]:hover,
+.register-container input[type=text]:hover{
+	background-color: gainsboro;
+}
+
+.register-container input[type=submit]:hover{
+	color: white;
+	background-color: #393e46;
+}
+
+.register-container{
+	/*border:1px solid black;*/
+	margin:10px;
+	padding:15px;
+	background-color: white;
+	box-shadow: 1px 1px 10px black;
+	border-radius: 10px;
+}
+
+/*REGISTER CONTAINER*/
+
+/*JUMBTRON*/
+.jumbotrn{
+	display:inline;
+	width: 30%;
+	float: left;
+	margin: 1%;margin-top:5%;
+	margin-bottom: 15%;
+	border-top-right-radius: 5px;
+}
+/*JUMBTRON*/
+
+.main{
+			margin-top:4%;
+		}
