@@ -318,4 +318,32 @@ p.title{
 .Final-question-container .answers-to-questions{
 	margin-left: 7%;
 }
+.answers-to-questions div:hover{
+	border-right: 2px solid #393e46;
+}
+
+.answers-to-questions div{
+	margin-left: 4%;
+	display: inline;
+}
+.answers-to-questions a.accept{
+	padding: 5px;
+	text-decoration: none;
+	border:1px solid #393e46;
+	background-color: #393e46;
+	color: white;
+	margin-left:-10%;
+	display:float:left;
+	margin-top: 4%;
+}
+
+.answers-to-questions a.accept:hover{
+	background-color: white;
+	color: #393e46;
+}
+
+.answers-to-questions div {
+	display:inline-block;
+}
+
 /*QUESTION DELETE PAGE SPECIFI CSS*/
