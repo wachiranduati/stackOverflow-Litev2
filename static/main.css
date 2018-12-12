@@ -270,6 +270,13 @@ p.title{
 	border:2px solid #393e46;
 	border-radius: 2px;
 }
+.small-panel h4:hover{
+	background-color: white;
+}
+.small-panel h4 a{
+	text-decoration: none;
+	color:#393e46;
+}
 .small-panel{
 	float:right;
 	margin-right: 8%;
@@ -306,5 +313,9 @@ p.title{
 .Final-question-container textarea:hover{
 	color: white;
 	background-color: #393e46;
+}
+
+.Final-question-container .answers-to-questions{
+	margin-left: 7%;
 }
 /*QUESTION DELETE PAGE SPECIFI CSS*/
