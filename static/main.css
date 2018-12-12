@@ -222,3 +222,42 @@ h2.pst-title{
 
 
 /*POSTQUESTION SPECIFIC HTML*/
+
+/*QUESTION DELETE PAGE SPECIFI CSS*/
+.quest-delt-container{
+	color: #393e46;
+	margin-left: 22%;
+	background-color: white;
+	box-shadow: 1px 1px 10px black;
+	border-radius: 10px;
+	padding: 15px;
+}
+.question>p{
+	display: inline-block;
+	padding: 10px;
+}
+.question>p>a{
+	border: 1px solid #393e46;
+	text-decoration: none;
+	padding: 5px 10px 5px 10px;
+	color: #393e46;
+	margin-left: 5%;
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px #393e46;
+}
+.question{
+	margin-left: 5%;
+}
+p.title{
+	border-bottom: 1px solid #393e46;
+}
+
+.question>p>a:hover{
+	background-color: #393e46;
+	color: white;
+}
+.quest-delt-container .question:hover{
+	border-right: 2px solid #393e46;
+	cursor: pointer;
+}
+/*QUESTION DELETE PAGE SPECIFI CSS*/
