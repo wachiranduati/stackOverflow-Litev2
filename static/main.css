@@ -146,3 +146,79 @@ orange - #f8b500*/
 .main{
 			margin-top:4%;
 		}
+
+/*POSTQUESTION SPECIFIC HTML*/
+
+
+/*POSTQUESTION CONTAINER*/
+
+.post-question-container input,
+ .post-question-container textarea{
+	display: block;
+	margin:1% 0 1% 0;
+	padding:10px;
+	width: 90%;
+	border:2px solid #393e46;
+}
+
+.post-question-container{
+	color: #393e46;
+	margin-left: 22%;
+	background-color: white;
+	box-shadow: 1px 1px 10px black;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+
+.post-question-container textarea,
+.post-question-container input[type=text]:hover{
+	background-color: gainsboro;
+}
+
+.post-question-container input[type=submit]:hover,
+.post-question-container textarea:hover,
+.post-question-container input[type=text]:hover{
+	color: white;
+	background-color: #393e46;
+}
+
+.ord-logo>h2>a, .ord-logo>h4 {
+	display: inline-block;
+} 
+
+.pquestnavbar{
+	background-color: #01b59f;
+}
+
+.pquestnavbar>h3, .pquestnavbar>h2, .pquestnavbar>div {
+	display: inline-block;
+}
+.pquestnavbar>h2{
+	margin-left: 2%;
+}
+.pquestnavbar a{
+	text-decoration: none;
+	color: #393e46;
+}
+
+.pquestnavbar>div{
+	float:right;
+	margin-right: 2%;
+	margin-top: .5%;
+	background-color: white;
+}
+.pquestnavbar>h3{
+	float: right;
+	margin-right: 3%;
+}
+h2.pst-title{
+	margin-left: 24%;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+/*POSTQUESTION CONTAINER
+
+
+/*POSTQUESTION SPECIFIC HTML*/
